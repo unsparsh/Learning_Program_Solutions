@@ -1,0 +1,10 @@
+#"Recursion" -> Recursion is when a method calls itself to solve a smaller part of the same problem.
+
+#Formula we used in calculating Forecast is:-
+    futureValue(years) = futureValue(years - 1) * (1 + growthRate)
+    Base Case: futureValue(0) = initialAmount
+
+#Time Complexity:
+"Recursive calls": one call per year → O(n)
+"Space Complexity": O(n) due to call stack
+

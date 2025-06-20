@@ -1,0 +1,6 @@
+Use "TreeMap" if we want sorted product listing.
+
+Use "custom comparator" if sorting based on price/quantity is needed.
+
+Use "file/database" for large-scale persistent storage.
+

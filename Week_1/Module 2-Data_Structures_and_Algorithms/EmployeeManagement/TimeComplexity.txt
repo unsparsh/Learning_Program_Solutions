@@ -1,0 +1,11 @@
+We used "Array" Data Structure for the operations
+
+----------------------------------------------
+|Operation              |	Time Complexity  |
+|--------------------------------------------|
+|Adding an Employee	    |       O(1)         |
+|Searching an Employee  |       O(n)         |
+|Deleting 	            |       O(n)         | 
+|Traversing         	|       O(n)         |
+---------------------------------------------|
+

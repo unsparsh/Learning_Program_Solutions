@@ -1,0 +1,14 @@
+-----------------------------------------------------
+| Algorithm       | Best       | Average    | Worst |
+| --------------- | ---------- | ---------- | ----- |
+| Bubble Sort     | O(n)       | O(n²)      | O(n²) |
+| Quick Sort      | O(n log n) | O(n log n) | O(n²) |
+-----------------------------------------------------
+
+Ques. Why Quick Sort is generally preferred over Bubble Sort?
+
+Ans. Bubble sort compares every pair — slow for large data.
+     It has O(n²) Time complexity which is Very slow.
+
+     While,Quick sort uses divides and conquers strategy which is way faster for most real data.
+     It has Time complexity of O(n logn) which is much faster.

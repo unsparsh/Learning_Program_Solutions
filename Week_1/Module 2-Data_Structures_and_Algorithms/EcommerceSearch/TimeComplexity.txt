@@ -1,0 +1,2 @@
+Linear Search	--> TC = "O(n)"     --> Space Complexity = "O(1)"	
+Binary Search	--> TC = "O(log n)" --> Space Complexity = "O(1)"	

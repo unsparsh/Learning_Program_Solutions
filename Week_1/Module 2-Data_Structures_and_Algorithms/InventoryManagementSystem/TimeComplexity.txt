@@ -1,0 +1,4 @@
+Adding Product	we uses "HashMap.put()" which uses O(1) TC(Constant time to insert by key)
+Updating a Product	we use "HashMap.get()"	uses O(1)	(Direct access via product ID)
+Delete a Product -> "HashMap.remove()"	-> O(1)	(Constant time key-based removal)
+Show All ->	"HashMap.values()"	-> O(n)	(Iterates through all products)

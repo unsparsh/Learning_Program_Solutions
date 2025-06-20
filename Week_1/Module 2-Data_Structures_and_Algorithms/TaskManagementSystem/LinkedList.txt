@@ -1,0 +1,11 @@
+We use LinkedList data Structure here for Operations
+Reason:-
+---------------------------------------------------------------------------
+| Feature            | Array                  | Linked List               |
+| ------------------ | ---------------------- | --------------------------|
+| Size Flexibility   |   Fixed                |   Dynamic                 |
+| Insertion (middle) |   Slow `O(n)`          |   Faster (with pointer)   |
+| Deletion (middle)  |   Shift needed `O(n)`  |   Just update link `O(n)` |
+| Access by Index    |   Fast `O(1)`          |   Slow `O(n)`             |
+| Memory Usage       |   Better if fixed data |   Extra for pointers      |
+---------------------------------------------------------------------------

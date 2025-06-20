@@ -1,0 +1,21 @@
+#Limitations of Arrays:-
+ -Arrays are not dynamic data structures. They can be modified after creation but the
+  size of the array cannot be changed dynamically.
+  Example. int[] arr = new int[5];
+ -To insert or delete in the middle, you have to shift all other elements.
+ -No Built-in Search or Sort is there, you have to write your own search/sort logic
+  unless you use Arrays.sort() or switch to a List.
+ -Arrays are homogeneous , meaning all elements must be of the same type.
+  Example: int[], String[] — can’t mix them.
+ -Array does not grow/shrink automatically like ArrayList or LinkedList.
+
+#When to Use Arrays
+-------------------------------------------------------------------------------------------------
+| Situation                      |               Why Arrays Work Well                           |
+|-------------------------- -----|--------------------------------------------------------------|
+| Fixed size is known            | Simple, no memory wastage if count is exact                  |
+| Fast access needed             | Direct access using index → `O(1)`                           |
+| Read-heavy operations          | Excellent when data is only being read                       |
+| Low-level programming          | Arrays are memory efficient and easy to manage in C/C++/Java |
+| Simple problems                | Arrays are best for basic search/sort, matrix problems, etc. |
+---------------------------------|---------------------------------------------------------------

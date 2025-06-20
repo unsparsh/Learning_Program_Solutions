@@ -1,0 +1,7 @@
+A. we will use Linear Search if:
+    Data is "unsorted"
+    You have few products
+
+B. We will use Binary Search if:
+    Data is "sorted"
+    You need high-speed performance with many products

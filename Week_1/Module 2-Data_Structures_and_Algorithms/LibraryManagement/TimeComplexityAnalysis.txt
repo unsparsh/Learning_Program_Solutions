@@ -1,0 +1,19 @@
+
+Time Complexity Chart:-
+---------------------------------------------------------
+| Operation            | Linear Search | Binary Search  |
+| -------------------- | ------------- | -------------- |
+|    Best Case         | `O(1)`        | `O(1)`         |
+|    Average/Worst     | `O(n)`        | `O(log n)`     |
+|    Data Requirement  | Unsorted Ok   | Must be sorted |
+---------------------------------------------------------
+
+When to use Linear and Binary Search:-
+--------------------------------------------------------
+| Scenario                           | Use This         |
+| ---------------------------------- | ---------------- |
+| Data is unsorted                   |   Linear Search  |
+| Data is sorted                     |   Binary Search  |
+| Small dataset                      | Linear is fine   |
+| Large dataset & performance needed | Binary is better |
+---------------------------------------------------------
